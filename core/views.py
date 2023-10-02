@@ -21,6 +21,7 @@ def signup(request):
     
     return render(request, "core/signup.html", context)
 
+
 # Create your views here.
 def front_page(request):
     return render(request, "core/front_page.html")
